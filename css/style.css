@@ -2,14 +2,14 @@ html {
   font-size: 100%;
 }
 body {
-  color: #333;
+  color: black;
   margin: 0 auto;
   font-size: 0.7rem;
   max-width: 1000px;
   font-family: 'Raleway', sans-serif;
 }
 a{
-  color: #333;
+  color: black;
   text-decoration: none;
 }
 img{
@@ -25,7 +25,7 @@ li{
 header{
     padding: 10px 0 20px 0;
     margin: 20px auto 50px;
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px gainsboro;
 }
 nav{
     display: flex;
@@ -87,13 +87,13 @@ nav{
     width: 20%;
 }
 .order-table td{
-    border-top: solid 1px #c3c3c3;
+    border-top: solid 1px gainsboro;
 }
 
 .order-table th{
     font-weight: lighter;
     padding: 10px;
-    border-right: solid 1px #c3c3c3;
+    border-right: solid 1px gainsboro;
     text-align: center;
 }
 .order-table th:last-child{
@@ -101,7 +101,7 @@ nav{
 }
 .order-table td{
     padding: 10px;
-    border-right: solid 1px #c3c3c3;
+    border-right: solid 1px gainsboro;
     text-align: center;
 }
 .order-table td:last-child{
@@ -112,9 +112,9 @@ nav{
     border: solid 1px black;
     padding-left: 10px;
 }
-.cart-btn{
+.btn{
     width: 100%;
-    background-color: #4B4B4B;
+    background-color: black;
     color: white;
     display: block;
     padding: 20px;
@@ -125,15 +125,19 @@ nav{
     width: 100%;
     border: solid 1px black;
 }
-.order .size-table .size {
-    width: 16%;
+.size-table .size{
+    width: 18%;
 }
-.order .size-table .chest,
-.order .size-table .weist,
-.order .size-table .height{
-    width: 28%;
+.chest{
+    width: 27%;
 }
-.order .size-table th{
+.weist{
+    width: 27%;
+}
+.height{
+    width: 27%;
+}
+.size-table th{
     background-color: gainsboro;
     font-weight: lighter;
     padding: 10px 0;
@@ -141,7 +145,7 @@ nav{
     border-bottom: solid 1px black;
     text-align: center;
 }
-.order .size-table td{
+.size-table td{
     font-weight: lighter;
     padding: 10px 0;
     border-right: solid 1px black;
